@@ -1,0 +1,33 @@
+#media-query {
+  display: none !important;
+}
+.title.uppercase h4 {
+  text-transform: uppercase;
+}
+/*
+  Update Standortkarte
+*/
+#wendt {
+  top: 36%;
+  right: 18%;
+}
+#wendt-content {
+  top: 20%;
+  left: 27%;
+}
+#com-wendt {
+  top: 35%;
+  right: 0%;
+}
+
+
+/* AUSBLENDEN - Links zur Bewerbung 
+
+.btn-bewerben-outer.mb-4,
+.convertforms.cf-form-bottom,
+.mod-custom.mod-jetzt-bewerben .content .text,
+.mod-custom.mod-eigeninitiative .content .text{
+  display: none;
+}
+
+*/
