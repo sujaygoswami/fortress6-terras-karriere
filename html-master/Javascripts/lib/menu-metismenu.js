@@ -5,14 +5,13 @@
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  * @since       4.0.0
  */
-document.addEventListener('DOMContentLoaded', () => {
-  const allMenus = document.querySelectorAll('ul.mod-menu_dropdown-metismenu');
-  allMenus.forEach(menu => {
+document.addEventListener("DOMContentLoaded", () => {
+  const allMenus = document.querySelectorAll("ul.mod-menu_dropdown-metismenu");
+  allMenus.forEach((menu) => {
     const mm = new MetisMenu(menu, {
-      triggerElement: 'button.mm-toggler'
+      triggerElement: "button.mm-toggler",
     });
   });
-
 
   /*
     Show / open active

@@ -5,7 +5,7 @@ var gdprConfigurationOptions = { complianceType: 'opt-in',
 	disableFirstReload: 1,
 	  blockJoomlaSessionCookie: 0,
 	blockExternalCookiesDomains: 1,
-	externalAdvancedBlockingModeCustomAttribute: '',
+	externalAdvancedBlockingModeCustomAttribute: 'class',
 	allowedCookies: '',
 	blockCookieDefine: 1,
 	autoAcceptOnNextPage: 0,
@@ -70,6 +70,8 @@ var gdprConfigurationOptions = { complianceType: 'opt-in',
 	placeholderIndividualBlockedResourcesAction: 0,
 	placeholderOnpageUnlock: 1,
 	scriptsOnpageUnlock: 1,
+	autoDetectYoutubePoster: 0,
+	autoDetectYoutubePosterApikey: 'AIzaSyAV_WIyYrUkFV1H8OKFYG8wIK8wVH9c82U',
 	dismissText: 'OK',
 	allowText: 'Ausgewählte erlauben',
 	denyText: 'Ablehnen',
@@ -85,6 +87,7 @@ var gdprConfigurationOptions = { complianceType: 'opt-in',
 	categoriesCheckboxTemplate: 'cc-checkboxes-light',
 	toggleCookieSettings: 0,
 	toggleCookieSettingsLinkedView: 0,
+	toggleCookieSettingsButtonsArea: 0,
 	 toggleCookieSettingsLinkedViewSefLink: '/component/gdpr/',
 	  toggleCookieSettingsText: '<span class="cc-cookie-settings-toggle">Einstellungen <span class="cc-cookie-settings-toggler">&#x25EE</span></span>',
 	toggleCookieSettingsButtonBackground: '#333333',
@@ -112,6 +115,7 @@ var gdprConfigurationOptions = { complianceType: 'opt-in',
 	alwaysReloadAfterCategoriesChange: 1,
 	preserveLockedCategories: 1,
 	declineButtonBehavior: 'hard',
+	blockCheckedCategoriesByDefault: 0,
 	reloadOnfirstDeclineall: 0,
 	trackExistingCheckboxSelectors: '',
 		trackExistingCheckboxConsentLogsFormfields: 'name,email,subject,message',
@@ -122,15 +126,17 @@ var gdprConfigurationOptions = { complianceType: 'opt-in',
 	allowallButtonText: '#ffffff',
 	allowallButtonTimingAjax: 'fast',
 	includeAcceptButton: 0,
+	includeDenyButton: 0,
 	trackConsentDate: 0,
 	execCustomScriptsOnce: 1,
 	optoutIndividualResources: 1,
 	blockIndividualResourcesServerside: 0,
 	disableSwitchersOptoutCategory: 0,
+	autoAcceptCategories: 0,
 	allowallIndividualResources: 1,
 	blockLocalStorage: 0,
 	blockSessionStorage: 0,
-	externalAdvancedBlockingModeTags: 'iframe,script,img,source',
+	externalAdvancedBlockingModeTags: 'div',
 	enableCustomScriptExecCategory1: 0,
 	customScriptExecCategory1: '',
 	enableCustomScriptExecCategory2: 0,
@@ -147,15 +153,13 @@ var gdprConfigurationOptions = { complianceType: 'opt-in',
 	customScriptDeclineExecCategory3: '',
 	enableCustomDeclineScriptExecCategory4: 0,
 	customScriptDeclineExecCategory4: '',
+	enableCMPPreferences: 0,																			  
 	enableCMPStatistics: 0,
 	enableCMPAds: 0,
 	debugMode: 0
-};var gdpr_ajax_livesite='https://www.terras-tiefbau.group/';var gdpr_enable_log_cookie_consent=1;
+};var gdpr_ajax_livesite='https://terras-karriere.de/';var gdpr_enable_log_cookie_consent=1;
 
-
-
-
-var gdprUseCookieCategories=1;var gdpr_ajaxendpoint_cookie_category_desc='https://www.terras-tiefbau.group/index.php?option=com_gdpr&task=user.getCookieCategoryDescription&format=raw';
+var gdprUseCookieCategories=1;var gdpr_ajaxendpoint_cookie_category_desc='https://terras-karriere.de/index.php?option=com_gdpr&task=user.getCookieCategoryDescription&format=raw';
 
 var gdprCookieCategoryDisabled2=1;
 
@@ -163,7 +167,7 @@ var gdprCookieCategoryDisabled3=1;
 
 var gdprCookieCategoryDisabled4=1;
 
-var gdprJSessCook='a86a558f6e167e485e5db0de9e1531ed';var gdprJSessVal='bo381iei4eoddllc70fdk1fcou';var gdprJAdminSessCook='6e79323f0a2913be2b0a62f1d24a44b4';var gdprPropagateCategoriesSession=1;var gdprAlwaysPropagateCategoriesSession=1;var gdprAlwaysCheckCategoriesSession=0;
+var gdprJSessCook='d5c2cf8ae59bef9a3a315ed32fc27fe4';var gdprJSessVal='hgmha2hfjmu63m8nup3lbctvgc';var gdprJAdminSessCook='e2cb2e39b2e1b7269918f9931e054cf2';var gdprPropagateCategoriesSession=1;var gdprAlwaysPropagateCategoriesSession=1;var gdprAlwaysCheckCategoriesSession=0;
 
 var gdprFancyboxWidth=700;var gdprFancyboxHeight=800;var gdprCloseText='Schließen';
 
